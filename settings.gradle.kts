@@ -83,6 +83,7 @@ fun includeExample(name: String) {
 includeExample("nodejs-tcp-transport")
 includeExample("interactions")
 includeExample("multiplatform-chat")
+includeExample("rsocketapp")
 
 val publishCheckVersion: String? by settings
 if (publishCheckVersion != null) include("publish-check")
